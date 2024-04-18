@@ -15,8 +15,9 @@ function App() {
         <CustomerBar />
         <FilterBar />
         <HeadingBar />
-        <div>
-          <TableOne />
+        <div className="flex flex-col sm:flex-row my-3 flex-wrap">
+          <TableOne color='#f00' />
+          <TableOne color='#0f0' />
         </div>
       </div>
       <div>
