@@ -6,6 +6,7 @@ import FilterBar from "./components/bars/FilterBar";
 import HeadingBar from "./components/bars/HeadingBar";
 import Footer from "./components/bars/Footer";
 import TableOne from "./components/table/TableOne";
+import TableTwo from "./components/table/TableTwo";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <FilterBar />
         <HeadingBar />
         <div className="flex flex-col sm:flex-row my-3 flex-wrap">
-          <TableOne color='#f00' />
-          <TableOne color='#0f0' />
+          <TableOne/>
+          <TableTwo/>
         </div>
       </div>
       <div>
